@@ -1,9 +1,9 @@
 node {
-    stage('This is a stage') {
-        echo 'This is a stage'
+    stage('Compile') {
+        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '23bbab93-73bd-422f-8a2a-7a45f13a44fe', url: 'https://github.com/christophmarckx/devops-jenkins']]])
     }
-    stage('Another stage') {
-        echo 'This is a stage'
+    stage('Test') {
+        junit ''
     }
     stage('Proceed?') {
         milestone()
