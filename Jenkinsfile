@@ -1,7 +1,7 @@
 node {
     stage('Compile') {
         checkout scm
-            grdl('compileJava'}
+            grdl('compileJava')
     stage('Test') {
         grdl('test')
     }
