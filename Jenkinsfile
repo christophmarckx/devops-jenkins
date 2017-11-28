@@ -1,19 +1,19 @@
-node {
+node() {
     stage('Compile') {
         checkout scm
-            grdl('compileJava')
+        grdl('compileJava')
+    }
     stage('Test') {
         grdl('test')
     }
     stage('IntegrationTest') {
-        grdl('IntegrationTest')
+        grdl('integrationTest')
     }
-    def grdl(task){
+}
+
+def grdl(task) {
     println "gradlew ${task}"
-    }
-    dir('dev'){
-    sh "./gradlew ${task} --info --stacktrace"
-    }
-        echo 'Finished'
+    dir ('dev') {
+        sh "./gradlew ${task} --info --stacktrace"
     }
 }
