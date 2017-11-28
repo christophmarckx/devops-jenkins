@@ -9,7 +9,7 @@ node {
         grdl('IntegrationTest')
     }
     def grdl(task){
-    println "gradlew ${task}""
+    println "gradlew ${task}"
     }
     dir('dev'){
     sh "./gradlew ${task} --info --stacktrace"

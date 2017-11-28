@@ -25,8 +25,8 @@
       <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="165">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -485,7 +485,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511877925166</updated>
-      <workItem from="1511877928070" duration="3196000" />
+      <workItem from="1511877928070" duration="3238000" />
     </task>
     <task id="LOCAL-00001" summary="Added JenkinsFile update">
       <created>1511880003344</created>
@@ -522,11 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511881409682</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added JenkinsFile Stages Added steps 1">
+      <created>1511881460716</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1511881460716</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3196000" />
+    <option name="totallyTimeSpent" value="3238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
@@ -575,7 +582,8 @@
     <MESSAGE value="Added JenkinsFile Stages" />
     <MESSAGE value="Added JenkinsFile Stages Correct" />
     <MESSAGE value="Added JenkinsFile Stages Added steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added JenkinsFile Stages Added steps" />
+    <MESSAGE value="Added JenkinsFile Stages Added steps 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added JenkinsFile Stages Added steps 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -584,8 +592,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="165">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
       </provider>
