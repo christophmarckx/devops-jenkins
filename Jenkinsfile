@@ -3,7 +3,7 @@ node {
         checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '23bbab93-73bd-422f-8a2a-7a45f13a44fe', url: 'https://github.com/christophmarckx/devops-jenkins']]])
     }
     stage('Test') {
-        junit ''
+        echo 'This is a stage'
     }
     stage('Proceed?') {
         milestone()
